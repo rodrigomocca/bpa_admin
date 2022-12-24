@@ -23,7 +23,7 @@ spec:
         - containerPort: 80
 ---
 apiVersion: v1
-kind: Service
+kind: LoadBalancer
 metadata:
   namespace: rodrigomocca
   name: bpa
